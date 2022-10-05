@@ -13,4 +13,3 @@ pip install google
 pip install gspread
 pip install oauth2client
 pip install gspread-dataframe
-pip install gdata
