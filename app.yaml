@@ -1,4 +1,4 @@
-runtime: python310
+runtime: python37
 env: standard
 instance_class: F1
 service: default
@@ -20,7 +20,7 @@ on:
 
 env:
   SPREADSHEET_KEY: ${{ secrets.SPREADSHEET_KEY }}
-  CHANNNEL_ID: ${{ secrets.CHANNNEL_ID }}
+  CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
   GUILD_ID: ${{ secrets.GUILD_ID }}
   TOKEN: ${{ secrets.TOKEN }}
   GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
