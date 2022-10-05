@@ -4,7 +4,6 @@
   import load_dotenv
   import requests
   import json
-  import gspread
   import gspread-dataframe
   pip3 install gspread
   pip install gunicorn
