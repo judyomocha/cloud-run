@@ -5,5 +5,5 @@ decorator
 google-auth
 google-auth-oauthlib
 gunicorn==19.8.1
-python==3.7
+python==3.10
 gspread==5.5.0
