@@ -7,6 +7,7 @@
   import gspread
   import gspread-dataframe
   pip3 install gspread
+  pip install gunicorn
   
 #pip install --upgrade pydata-google-auth
 #pip install google-api-python-client
