@@ -5,7 +5,7 @@
   import requests
   import json
   import gspread-dataframe
-  pip3 install gspread
+  pip install gspread
   pip install gunicorn
   
 #pip install --upgrade pydata-google-auth
