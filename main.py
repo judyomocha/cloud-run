@@ -35,7 +35,7 @@ async def on_message(message):
         return
 
     if message.channel.id == int(CHANNEL_ID):
-        ws.update_cell(i,1,message.content )
+        ws.update_cell(i+1,1,message.content )
         print(f'更新します @{message.author}!') 
         await message.channel.send(f'更新します {message.author}!') 
 
