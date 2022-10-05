@@ -6,6 +6,8 @@
   import json
   import gspread
   import gspread-dataframe
+  pip3 install gspread
+  
 #pip install --upgrade pydata-google-auth
 #pip install google-api-python-client
 #pip install --upgrade pip
