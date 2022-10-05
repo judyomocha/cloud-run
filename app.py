@@ -24,6 +24,8 @@ import discord
 import json
 import os
 from dotenv import load_dotenv
+poetry add gspread
+poetry add oauth2client
 # .envファイルの内容を読み込見込む
 load_dotenv()
 TOKEN = os.environ['TOKEN']
